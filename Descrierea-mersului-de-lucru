@@ -1,0 +1,30 @@
+LABORATOR 2
+DATA BASE
+
+
+Scopul lucrarii a fost de creare a 2 baze de date cu subpuncte diferite si 2 plane de activitati a acestora.
+Toate screenshoturile sunt in repozitoriu.
+
+Sarcina 1.
+
+rightclick Databases => New Database primul pas in crearea bazei de date.
+in fereastra noua aparuta (New Database) in optiunea General in Autogrowth/Maximize schimbam cresterea fisierului si limita de crestere dupa cerintele date.
+pentru a crea un filegroup nou apasam add si chimbam file type.
+
+Sarcina 2.
+
+pasii la fel ca si in prima sarcina doar ca avem alte valori de schimbat.
+pentru a alege compatibilitatea intram in Options si alegem compatibility level.
+pentru un singur utilizator in Options => Other options =>State =>Restrict acces.
+
+Sarcina 3.
+
+pentru a crea planul de date Maintenance =>right click Maintenance Plans =>Maintenance Plan Wizard.
+pentru ca actiunile sa ruleze fiecare data propusa in sarcina apasam Change la Schedule.
+pentru indepartarea spatiului neutilizat selectam Shrink Database.
+
+Sarcina 4.
+
+
+crearea are loc la fel ca in sarcina 3 doar ca denumirea o scriem dupa cerinta din sarcina ca si timpul de rulare a actiunilor.
+pentru celelalte sarcini selectam Rebuild Index si Clean Up History
